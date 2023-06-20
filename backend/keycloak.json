@@ -1,0 +1,7 @@
+{
+  "realm": "bienlab",
+  "bearer-only": true,
+  "auth-server-url": "https://keycloak.bienlab.com",
+  "ssl-required": "external",
+  "resource": "demoapi"
+}
