@@ -1,0 +1,67 @@
+{
+  "admins": [
+    {
+      "name": "Lý Thu Anh",
+      "email": "anh.ly@gmail.com",
+      "role": "viewer",
+      "id": "1"
+    },
+    {
+      "name": "Lê Quốc An",
+      "email": "an.le@gmail.com",
+      "role": "admin",
+      "id": "2"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Brian Kim",
+      "email": "brian@example.com",
+      "role": "editor"
+    },
+    {
+      "id": 3,
+      "name": "Carla Mendes",
+      "email": "carla@example.com",
+      "role": "viewer"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Getting Started with JSON Server",
+      "authorId": 1,
+      "tags": ["json", "api", "tutorial"],
+      "published": true
+    },
+    {
+      "id": 2,
+      "title": "Designing Mock APIs",
+      "authorId": 2,
+      "tags": ["mock", "testing"],
+      "published": false
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "Carla Mendes",
+      "message": "This walkthrough made prototyping so much faster!"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Brian Kim",
+      "message": "Remember to secure the real API before launch."
+    }
+  ]
+}
+
