@@ -14,6 +14,10 @@ to start:
 ```
 ./start_demoapi.sh
 ```
+Accessing the manual test GUI http://your_host/login.php
+Or the automatic test GUI http://your_host:8080/
+
+
 to stop:
 ```
 ./start_demoapi.sh
